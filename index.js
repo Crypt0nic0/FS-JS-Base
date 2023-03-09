@@ -52,3 +52,27 @@ let object = {
     ville: "Bordeaux"
 }
 
+
+
+
+
+// ** Les opérateurs ** //
+console.log(4+5);
+console.log(4-5);
+console.log(4/5);
+console.log(4*5);
+console.log(4**5); // Puissance
+
+// ** Opérateurs d'affectations ** //
+let total = 0;
+total = total + 1;
+total++;
+total += 5;
+
+
+
+
+// ** Structures de controle ** //
+
+
+
