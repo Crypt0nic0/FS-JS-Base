@@ -111,3 +111,17 @@ if(x < y || x > 1){
 
 
 // ** Fonctions ** //
+function faireQuelqueChose(){
+    console.log("je fais un truc");
+    console.log(5+5);
+    console.log("Calcul terminé");
+}
+
+faireQuelqueChose();
+
+
+const addition = (a, b) => {
+    console.log(a+b);
+};
+
+addition(4,5);
