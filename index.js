@@ -7,6 +7,10 @@ lignes... */
 // Kamel Case
 let maSuperVariable = "Hello";
 
+
+
+
+
 // ** Les variables ** //
 
 // var = vieux JavaScript, n'est plus utilisé aujourd'hui
@@ -27,4 +31,24 @@ let nouvelleChaine = "Chaine précédente : " + chaine;
 
 let autreConcatenation = `Chaine précédente : ${chaine}. Voilà c'était le contenu`;
 
+
+
+
+
 // ** Types de données ** //
+
+
+let string = "Je suis une chaine de caractères";
+let number = 24;
+let boolean = false;
+
+// Tableau : il y a des crochets []
+let array = ["je", "suis", 47, true];
+
+// Objet : accolades {}
+let object = {
+    prenom: "audrey",
+    age: 33,
+    ville: "Bordeaux"
+}
+
