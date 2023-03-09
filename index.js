@@ -74,5 +74,40 @@ total += 5;
 
 // ** Structures de controle ** //
 
+let x = 2;
+let y = 5;
+console.log("Test si 2 > 5");
+if (x > y) { 
+    console.log("Yes");
+} else {
+    console.log("No");
+}
+
+if(x){
+    console.log("X existe !");
+}
+
+// Essai avec des types differents
+// === verifie avec le type
+// == verifie sans le type
+let a = 5;
+let b = "5";
+if(a===b){
+    console.log("Yes");
+} else{
+    console.log("No");
+}
+
+//   || ou
+//   && et
+
+if(x < y || x > 1){
+    console.log("YES");
+}
 
 
+
+
+
+
+// ** Fonctions ** //
