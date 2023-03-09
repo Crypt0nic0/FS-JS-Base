@@ -17,6 +17,14 @@ const prenom = "justine";
 
 // let = la variable peut être modifiée
 let unChiffre = 24;
+unChiffre = 22;
+
+// Utilisation des guillemets
+let chaine = "je suis l'une des chaines de caractères";
 
 
-console.log(unChiffre);
+let nouvelleChaine = "Chaine précédente : " + chaine;
+
+let autreConcatenation = `Chaine précédente : ${chaine}. Voilà c'était le contenu`;
+
+// ** Types de données ** //
